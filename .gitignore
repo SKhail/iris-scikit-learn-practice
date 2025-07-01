@@ -1,13 +1,15 @@
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-.env.*
-venv/
-env/
-.venv/
-.DS_Store
+# Virtual environment folders
+bin/
+lib/
 share/
 etc/
+__pycache__/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore all system or user-created envs
+venv/
+.venv/
+env/
+.env
